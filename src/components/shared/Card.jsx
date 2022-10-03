@@ -1,7 +1,9 @@
 import React from 'react';
 
-function Card({ children }) {
-  return <div className='card'>{children}</div>;
+function Card({ children, reverse }) {
+  // return <div className={`card ${reverse && 'reverse'}`}>{children}</div>;
+
+  return <div className={`card ${reverse && 'reverse'}`}>{children}</div>;
 }
 
 export default Card;

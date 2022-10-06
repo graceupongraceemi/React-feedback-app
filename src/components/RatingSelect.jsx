@@ -38,7 +38,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 2}
         />
-        <label htmlFor='num1'>2</label>
+        <label htmlFor='num2'>2</label>
       </li>
       <li>
         <input
@@ -49,7 +49,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 3}
         />
-        <label htmlFor='num1'>3</label>
+        <label htmlFor='num3'>3</label>
       </li>
       <li>
         <input
@@ -60,7 +60,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 4}
         />
-        <label htmlFor='num1'>4</label>
+        <label htmlFor='num4'>4</label>
       </li>
       <li>
         <input
@@ -71,7 +71,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 5}
         />
-        <label htmlFor='num1'>5</label>
+        <label htmlFor='num5'>5</label>
       </li>
       <li>
         <input
@@ -82,7 +82,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 6}
         />
-        <label htmlFor='num1'>6</label>
+        <label htmlFor='num6'>6</label>
       </li>
       <li>
         <input
@@ -93,7 +93,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 7}
         />
-        <label htmlFor='num1'>7</label>
+        <label htmlFor='num7'>7</label>
       </li>
       <li>
         <input
@@ -104,7 +104,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 8}
         />
-        <label htmlFor='num1'>8</label>
+        <label htmlFor='num8'>8</label>
       </li>
       <li>
         <input
@@ -115,7 +115,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 9}
         />
-        <label htmlFor='num1'>9</label>
+        <label htmlFor='num9'>9</label>
       </li>
       <li>
         <input
@@ -126,7 +126,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 10}
         />
-        <label htmlFor='num1'>10</label>
+        <label htmlFor='num10'>10</label>
       </li>
     </ul>
   );

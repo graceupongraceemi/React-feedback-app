@@ -22,11 +22,13 @@ function FeedbackForm() {
     }
   }, [feedbackEdit]);
 
-  const handleTextChange = (e) => {
-    if (text === '') {
+  const handleTextChange = ({ target: { value } }) => {
+    if (value === '') {
       setBtnDisabled(true);
       setMessage(null);
-    } else if (text !== '' && text.trim().length <= 10) {
+
+      //
+    } else if (value.trim().length < 10) {
       setMessage('Text must be at least 10 characters');
       setBtnDisabled(true);
     } else {
